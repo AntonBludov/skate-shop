@@ -157,6 +157,7 @@ h6 {
   width: 100%;
   height: 60%;
   border: 1px solid #000;
+  background-color: #000;
 }
 
 .main-body__small-block-text {
@@ -206,6 +207,9 @@ img {
 @media screen and (max-width: 1200px) {
 }
 @media screen and (max-width: 992px) {
+  .main-body__small-block-text {
+    overflow: scroll;
+  }
 }
 @media screen and (max-width: 768px) {
   .main-body__small-block {
@@ -235,5 +239,23 @@ img {
   }
   .main-body__big-block__text {
     font-size: 10px;
+  }
+}
+@media screen and (min-width: 390px) {
+  .header__bar {
+    width: 200px;
+  }
+  .header__logo {
+    background-size: 89px 89px;
+  }
+  .main-body__row {
+    flex-direction: column;
+    height: 100%;
+  }
+  .main-body__small-block {
+    height: 300px;
+  }
+  .main-body__big-block {
+    height: 300px;
   }
 }
