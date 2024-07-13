@@ -103,7 +103,7 @@ h6 {
   width: 90px;
   height: 90px;
   border: 1px solid #fff;
-  background-image: url(../img/skateshop-logo-364176913.png);
+  background-image: url(../images/skate-logo-76357071.png);
   background-size: 90px 90px;
   border-radius: 50%;
 }
@@ -157,7 +157,6 @@ h6 {
   width: 100%;
   height: 60%;
   border: 1px solid #000;
-  background-color: #000;
 }
 
 .main-body__small-block-text {
@@ -204,58 +203,16 @@ img {
   text-shadow: 1px 1px 1px #000;
   padding: 10px;
 }
-@media screen and (max-width: 1200px) {
-}
-@media screen and (max-width: 992px) {
-  .main-body__small-block-text {
-    overflow: scroll;
-  }
-}
-@media screen and (max-width: 768px) {
-  .main-body__small-block {
-    font-size: 10px;
-    overflow: auto;
-  }
-}
-@media screen and (max-width: 480px) {
-  .header {
-  }
-  .header__bar {
-    width: 480px;
-    gap: 5px;
-    margin: 0px 0px 0px 10px;
-  }
-  .header__logo {
-    background-size: 71px 87px;
-  }
-  .header__item {
-    width: 87px;
-  }
-  .main-body__small-block {
-    padding: 6px;
-  }
-  .main-body__small-block-text {
-    font-size: 10px;
-  }
-  .main-body__big-block__text {
-    font-size: 10px;
-  }
-}
-@media screen and (width: 390px) {
-  .header__bar {
-    width: 200px;
-  }
-  .header__logo {
-    background-size: 89px 89px;
-  }
+
+@media screen and (max-width: 600px) {
   .main-body__row {
-    flex-direction: column;
-    height: 100%;
+    width: 600px;
+    background-color: blue;
   }
-  .main-body__small-block {
-    height: 300px;
+  .wrapper {
+    width: 100%;
   }
-  .main-body__big-block {
-    height: 300px;
+  .header {
+    width: 100%;
   }
 }
