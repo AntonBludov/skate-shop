@@ -19,6 +19,11 @@
   background: url(../images/skateshop-logo-364176913.png);
   background-size: 90px 90px;
   border-radius: 50%;
+  transition: 2s;
+}
+.header__logo:hover {
+  box-shadow: 0 0 20px black, 20px 15px 30px yellow, -20px 15px 30px lime, -20px -15px 30px blue,
+    20px -15px 30px red;
 }
 
 .header__bar {
@@ -32,6 +37,12 @@
   width: 100px;
   height: 30px;
   background-color: blue;
+  transition: 1s, 1.5s;
+}
+.header__item:hover {
+  background-color: rgb(234, 127, 57);
+  border-radius: 10%;
+  box-shadow: 5px 5px rgb(13, 62, 183);
 }
 .main-body {
   display: flex;
